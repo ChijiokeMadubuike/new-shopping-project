@@ -1,0 +1,534 @@
+
+body{
+  padding-top: 100px;
+  height: 3000px;
+  margin: 6px; 
+}
+
+
+.header{
+border-width: 2px;
+border-color: #ffe5e5;
+background-color: white;
+border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:6px;
+  right:6px;
+  
+}
+
+
+
+.left-section{
+
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: red;
+  width: 60px;
+  padding-top: 10px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  
+}
+
+.middle-section{
+  
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .right-section{
+
+  
+  color: white;
+display: flex;
+flex-direction: row;
+flex:1;
+  }
+
+  .cart-icon,
+  .search-icon{
+ 
+    height: 30px;
+
+  }
+
+  .cart-button{
+
+    height: 45px;
+    background-color: rgb(66, 61, 61);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+
+  .cart-number{
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+  }
+.cart-number-container{
+
+  margin-top: -10px;
+  margin-bottom: -25px;
+  margin-left: 4px;
+}
+  .left-bar-container{
+
+    background-color: #fffbfb;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 75px;
+    height: 400px;
+    width: 80px
+
+  }
+
+  .mid-section-container{
+   
+    display: inline-block;
+    position:fixed;
+
+  }
+
+    .search-input{
+
+    height: 38px;
+    width: 100%;
+    border-radius: 6px;
+    border-style:solid;
+    border-color: rgb(211, 211, 211);
+  }
+
+  .search-input::placeholder{
+
+    font-size: 16px;
+  }
+
+  .search-button{
+
+    height: 45px;
+    width: 75px;
+    border-left: 0px;
+    border-color: lightgray;
+    background-color:lightgray;
+    margin-left: -5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(86, 77, 77);
+    cursor: pointer;
+  }
+
+  .fixed-middle-section{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+  }
+
+  .whatsapp-icon{
+
+    height: 40px;
+    
+  }
+
+
+
+
+  .left-bar-container{
+
+    background-color: white;
+  }
+
+  .men-section,
+  .women-section,
+  .kids-section{
+   
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    border-color: gray;
+    border-bottom: 2px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+  
+  }
+
+  .women-section{
+
+    margin-top: 30px;;
+  }
+
+  .kids-section{
+
+    margin-top: 30px
+  }
+
+
+ .advertisement-container{
+
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+border-width:1px;
+border-style: none;
+margin-left: -5px;
+margin-right: -20px;
+  
+  height: 100px;
+  position: relative;
+  top:25px;
+
+  }
+
+  .advert-video-1-container,
+  .advert-video-2-container,
+  .advert-video-3-container{
+    flex:1;
+    border: none;
+    border-right: none;
+    position: relative;
+  }
+  
+
+  .advert-content-1{
+color: #1e1bd4fe;
+position: absolute;
+font-family: "Dancing Script", cursive;
+font-size: 24px;
+font-weight: bolder;
+left: 15px;
+top: 0px;
+
+  }
+
+  .advert-content-2{
+
+ color: hsl(60, 100%, 50%);
+  position: absolute;
+font-family: "Dancing Script", cursive;
+font-size: 24px;
+font-weight: bolder;
+left: 20px;
+top: 5px;
+  }
+
+  .advert-content-3{
+
+  color: red;
+  position: absolute;
+font-family: "Dancing Script", cursive;
+font-size: 26px;
+font-weight: bolder;
+right: 10px;
+top: 0px;
+  }
+
+
+   .advert-paragraph-1,
+   .advert-paragraph-2,
+   .advert-paragraph-3{
+
+line-height: 2px;;
+font-family: "Dancing Script", cursive;
+font-size: 24px;
+font-weight: 700;
+  }
+
+
+   .hyper-link-container{
+
+    position: fixed;
+    left: 50px;
+    right: 30px;
+    top: 60px;
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    height: 40px;
+    margin-top: 180px;
+    margin-bottom: -30px;
+    margin-left: 45px;
+    margin-right: -100px;
+    padding-top:5px ;
+    padding-bottom: 0px;
+  }
+
+  .new-arrivals,
+  .trending,
+  .brands,
+  .categories{
+
+    flex:1;
+    margin-left: 40px;
+  }
+
+
+  .product-display-grid{
+
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-top: 160px;
+    margin-left: 10px;
+
+
+    
+  }
+
+
+  .product-container{
+
+    display: flex;
+    flex-direction: row;
+   
+    margin-left: 80px;
+    margin-top: 45px;
+    height: 250px
+  }
+
+ 
+  .image-container{
+
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 5px;
+
+    width: 300px;
+    
+  }
+
+   .image-test{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+  
+      
+    }
+
+   .product-details{
+
+    background-color: white;
+    width: 220px;
+    margin-left: 2px;
+  
+  }
+
+  .product-name{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 550;
+    padding-bottom: 10px;
+    padding-top: -10px;
+  }
+
+
+    .item-description{
+
+      margin-top: -12px;
+      width: 200px;
+
+    }
+
+    .brand-name-container{
+
+      background-color: black;
+      color: white;
+      display: inline-block;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      height: 35px;
+      border-radius: 8px;
+      margin-top: -20px;
+
+      
+  
+    }
+
+    .vendor-price{
+
+    color: red;
+    margin-bottom: 0px;
+    margin-top: 15px;
+      
+    }
+
+    .our-price {
+      color: green;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+    .size-quantity-list{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+
+
+  .quantity-label-container{
+
+    display: block;
+    margin-top: -17px;
+    margin-left: 30px;
+    margin-right: -10px;
+
+  }
+
+.quantity-count-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 30px;
+  margin-top: 18px;
+  margin-left: -50px;
+  margin-right: 50px;
+
+ 
+}
+
+.minus-button,
+.plus-button{
+
+  height: 27px;
+  width: 30px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-width: 1px;
+  
+}
+
+.plus-button{
+ margin-right: -6px;
+ border-left: none;
+ cursor: pointer;
+  
+}
+
+.minus-button{
+
+  margin-left: 10px;
+  border-right: none;
+  cursor: pointer;
+}
+
+.input-quantity-container{
+  display: flex;
+ flex-direction: column;
+ justify-content: stretch;
+  width: 35px;
+  height: 28px;
+  border-right: none;
+  
+}
+
+.quantity-input{
+
+  height: 30px;
+  border-right: none;
+  border-left: none;
+  text-align: right;
+  border-top-color: lightgray;
+  border-width: 1px;
+
+
+}
+
+
+
+
+
+
+
+
+.add-button-container{
+
+  display: flex;
+  justify-content: center;
+}
+
+.add-delete-button-container{
+
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 50px;
+  margin-top: 0px;
+  justify-content: center;
+  
+}
+
+.add-button, .delete-button{
+
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+.add-button{
+
+  margin-top: 5px;
+  border-color: lightgray;
+  color: blue;
+}
+
+.delete-button{
+  border-color: lightgray;
+  padding: 10px;
+  color: red;
+  visibility: inherit;
+}
+
+.submit-button{
+
+  margin-top: -100px ;
+ padding: 10px;
+}
+
+
+select,
+select::picker(select){
+
+  appearance: base-select;
+}
